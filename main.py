@@ -74,7 +74,7 @@ def get_data(sid):
     except Exception as e:
         print "Can not extract data: " + str(e)
         
-# have commented create and insertion code since once it is done
+#create table and insert table are required only once, hence commented
 
 """def create_table():
     try:        
